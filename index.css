@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 2px solid rgb(25, 105, 217);
+    border-radius: 10px;
+    width: 50%;
+}
+.butForm{
+    width: 25%;
+}
+.spinner-border{
+    margin-top: 10%;
+}
+.form2{
+    margin-top: 5%;
+    padding: 5%;
+    padding-top: 2%;
+}
+.login{
+    width: 25;
+}
+.login:hover {
+    transition-duration: 1s;
+    transition-property: all;
+    background-color: rgb(37, 126, 250);
+    color: white;
+}
+.sign-up{
+    width: 25%;
+}
+.sign-up:hover {
+    transition-duration: 1s;
+    transition-property: all;
+    background-color: rgb(37, 126, 250);
+    color: white;
+}
+
+.col-md-4,
+.col-md-6,
+.col-12 {
+    margin-left: 5%;
+}
+
+
+@media (max-width: 1777px) {
+    .sign-up{
+        width: 40%;
+    }
+}
+@media (max-width: 850px) {
+    .butForm{
+        width: 40%;
+    }
+}
+@media (max-width: 690px) {
+    form{
+        width: 80%;
+    }
+}
+@media (max-width:520px) {
+    form {
+        width: 100%;
+    }
+    .butForm{
+        width: 40%
+    }
+}
+@media (max-width: 305px) {
+    .sign-up{
+        width: 50%;
+    }
+}
+@media (max-width: 300px) {
+    .sign-up{
+        width: 50%;
+    }
+    .login{
+        width: 50%;
+    }
+}
+@media (max-width: 280px) {
+    .sign-up{
+        width: 50%;
+    }
+    .login{
+        width: 50%;
+    }
+}
